@@ -38,3 +38,4 @@ variable "instance_name" {
   description = "Value for the Name tag of the EC2 instance"
   default     = "Terraform-Interactive-EC2"
 }
+
