@@ -18,7 +18,7 @@ variable "aws_secret_key" {
 variable "aws_region" {
   type        = string
   description = "AWS Region to deploy resources"
-  default     = "eu-central-1"
+  default     = "us-east-2"
 }
 
 variable "ami_id" {
