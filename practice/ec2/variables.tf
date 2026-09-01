@@ -1,16 +1,16 @@
 # ==========================================
 # CREDENTIALS VARIABLES (PROMPTED AT RUNTIME)
 # ==========================================
-variable "aws_access_key" {
-  type        = string
-  description = "Enter your AWS Access Key ID"
-}
-
-variable "aws_secret_key" {
-  type        = string
-  description = "Enter your AWS Secret Access Key"
-  sensitive   = true # Hides input typing in the terminal prompt
-}
+# variable "aws_access_key" {
+#   type        = string
+#   description = "Enter your AWS Access Key ID"
+# }
+#
+# variable "aws_secret_key" {
+#   type        = string
+#   description = "Enter your AWS Secret Access Key"
+#   sensitive   = true # Hides input typing in the terminal prompt
+# }
 
 # ==========================================
 # CONFIGURATION VARIABLES (DEFAULT VALUES)
@@ -24,13 +24,13 @@ variable "aws_region" {
 variable "ami_id" {
   type        = string
   description = "AMI ID for the EC2 instance (Ubuntu 24.04 LTS in eu-central-1)"
-  default     = "ami-0ed930776bf7be2b7"
+  default     = "ami-01c265752adadcdf8"
 }
 
 variable "instance_type" {
   type        = string
   description = "EC2 Instance Size"
-  default     = "t2.micro"
+  default     = "t3.micro"
 }
 
 variable "instance_name" {
