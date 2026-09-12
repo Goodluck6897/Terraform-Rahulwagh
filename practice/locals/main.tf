@@ -6,7 +6,9 @@ resource "aws_instance" "my_ec2" {
   instance_type = var.instance_type
 
   tags = {
-    Name = local.instance_name
+   # Name = local.instance_name ->This also works
+   Name = "${local.instance_name}-local"
+
   }
 }
 
