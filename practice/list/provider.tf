@@ -6,3 +6,4 @@ provider "aws" {
   shared_credentials_files = ["/Users/vm/Documents/AWS/credentials"]
   profile                  = "default"
 }
+#

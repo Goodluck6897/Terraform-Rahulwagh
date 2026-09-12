@@ -1,7 +1,7 @@
 
 #2.2 number variable type - We are going parameterized instance_count = 2
 
-
+#
 variable "instance_names" {
   type    = list(string)
   default = ["EC21", "EC22"]

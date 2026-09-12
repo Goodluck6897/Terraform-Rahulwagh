@@ -8,3 +8,4 @@ resource "aws_instance" "example" {
     Name = each.value
   }
 }
+#
